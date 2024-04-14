@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.github.jbarriospolo.movie.movie.AccessController">
+    <Label text="Iniciar Sesión"/>
+    <TextField fx:id="user" promptText="Nombre de usuario"/>
+    <PasswordField fx:id="pass" promptText="Contraseña"/>
+    <Button text="Login" fx:id="loginButton"/>
+    <Label fx:id="loginMessageLabel"/>
+</VBox>
+
